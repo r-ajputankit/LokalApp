@@ -85,9 +85,9 @@ export default function TabLayout() {
         options={{
           title: 'Bookmarks',
           tabBarIcon: ({ focused }) => (
-            <IconSymbol 
+            <MaterialCommunityIcons 
               size={24} 
-              name="bookmark.fill" 
+              name="bookmark" 
               color={focused ? colors.activeTint : colors.inactiveTint}
             />
           ),

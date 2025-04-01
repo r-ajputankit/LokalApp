@@ -87,7 +87,7 @@ export default function Bookmarks() {
       {loading ? (
         <ActivityIndicator size="large" color="#0000ff" style={styles.loader} />
       ) : bookmarkedJobs.length === 0 ? (
-        <ThemedView style={[styles.noJobsContainer,{backgroundColor: '#7C3AED'}]}>
+        <ThemedView style={[styles.noJobsContainer,{backgroundColor: '#f2f0f5'}]}>
           <ThemedText style={styles.noJobsText}>No bookmarked jobs</ThemedText>
         </ThemedView>
       ) : (
